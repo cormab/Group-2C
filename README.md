@@ -1,5 +1,5 @@
 # Group-2C
-Given a specified array, return the maximum and minimum numbers
+Given a specified array, return d maximum and minimum no
 
 var arr = [2, -3, 5, 10, 2, 30];
 
