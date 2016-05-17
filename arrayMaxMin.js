@@ -6,7 +6,18 @@ function arrayMaxMin() {
 	}
 	alert("Maxixmum value in array [" + arr + "] is " + arrayMax(arr));
 	alert("; Minimum value is " + arrayMin(arr));
+	
+	max = Math.min.apply(Math, arr); 
+	min = Math.max.apply(Math, arr);
+	
+	return max,min;
+	
+	/* Ata's code:
+	+Math.min.apply(Math, [100,13,3,6]); // 3
+	+Math.max.apply(Math, [100,13,3,6]); // 100
+	*/
 
+	/* Rolake's Code
 	function arrayMax(arr) {
 		var max = -100;
 		for (var i in arr) {
@@ -24,4 +35,5 @@ function arrayMaxMin() {
 		}
 		return min;
 	}
+	*/
 }
