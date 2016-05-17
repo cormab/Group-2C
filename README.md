@@ -1,10 +1,3 @@
-# Group-2C
-Given a specified array, return the maximum and minimum numbers
+arrayMaxMin.js: Given a specified array, return the maximum and minimum numbers depending on the selector specified. arrayMaxMin(array, selector). Selector should be either either 'max' or 'min'
 
-//This is a simple form
-Array.max = function( array ){
-    return Math.max.apply( Math, array );
-};
-Array.min = function( array ){
-    return Math.min.apply( Math, array );
-};
+arrayMaxMin.html file generates random array of positive numbers for use to test function.
