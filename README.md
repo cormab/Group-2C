@@ -7,4 +7,5 @@ arrayMaxMin.html file generates random array of positive numbers for use to test
 
 max+min.js -> Ata's code<br>
 minMax.js -> Richard's code<br>
+Min-MAx.js -> Liasu's code<br>
 N.B. There is a comment section at the bottom of arrayMaxMin,js that lists everyone's code
